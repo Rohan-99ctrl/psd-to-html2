@@ -1,0 +1,38 @@
+@media only screen and (min-width:200px) and (max-width:515px){
+    
+    /* ===========================================
+    nav bar responsive start
+    =========================================== */
+
+    a.navbar-brand{margin: auto !important;margin: 0px !important;}
+    h2.logo_title{ padding-right: 5px !important;font-size: 21pt;}
+    button.button_bar{margin: auto !important;margin-bottom: 13px !important;}
+    p.logo_title_two{padding-left: 6px;}
+
+    li.nav-item a.nav-link{background: #ddd;}
+
+
+    /* ===========================================
+    nav bar responsive end
+    =========================================== */
+
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    li.nav-item a.nav-link{font-size: 11pt;}
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    a.navbar-brand{display: none;}
+    ul.navbar-nav{margin: auto !important;}
+    div#scale_top_down{width: 100% !important;}
+    li.nav-item a.nav-link{font-size: 13pt;}
+}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    div.last_block p{float: none !important;text-align: center;}
+}
+
+
+

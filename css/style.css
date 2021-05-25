@@ -1,0 +1,162 @@
+*{margin: 0px;padding: 0px;outline: none;box-sizing: border-box;}
+
+/* ======================================================
+nav bar design start 
+====================================================== */
+
+div.main_nav_block{
+    background: #ffffff;
+    border-top: 5px solid #e2e2e2;
+    position: relative;
+    border-bottom: 2px solid #e2e2e2;
+    }
+h2.logo_title{
+    font-size: 26pt;
+    color: #333333;
+    padding-right: 6px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+h2.logo_title span{
+    font-size: 46pt;
+    }
+p.logo_title_two{
+    font-size: 12pt;
+    color: #999999;
+    padding-left: 10px;
+    border-left: 1px solid #999999;
+    }
+    
+nav.navbar{padding: 0px 0px;}
+li.nav-item{
+    
+    }
+li.nav-item a.nav-link{
+        padding-top: 63px;
+        font-size: 13pt;
+        color: #666666;
+        text-decoration: none;
+        margin-bottom: 37px;
+        padding-bottom: 24px;
+        transition: all 0.6s;
+        margin-right: 2px;
+        margin-top: -5px;
+        position: relative;
+    }
+
+li.nav-item a.nav-link:hover{
+        background: #eeeeee;
+        border-top: 5px solid #57bae8;
+    }
+
+/* ======================================================
+nav bar design end 
+====================================================== */
+
+/* ======================================================
+slider design start 
+====================================================== */
+
+div.custom_design_block{
+    border-top: 4px solid #e2e2e2;
+    padding: 37px 0px;
+    padding-bottom: 52px;
+    margin-top: 2px;
+}
+h1.slider_top_title{
+    color: #333333;
+    font-size: 33pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.slider_top_para{
+    color: #cccccc;
+    font-size: 20pt;
+}
+
+div.image_block{width: 100%;}
+div.image_block img{width: 100%;}
+
+
+ul#mycarousel_indicators{
+    position: relative;
+    top: 26px;
+}
+ul#mycarousel_indicators li{
+    border-radius: 50%;
+    width: 19px;
+    height: 0px;
+    margin: 0px 10px;
+    background: #222222;
+}
+
+
+/* ======================================================
+slider design end 
+====================================================== */
+
+/* ======================================================
+small block information design start 
+====================================================== */
+div.custom_css_design_block{padding: 21px 18px;padding-bottom: 44px;}
+div.image_block_two{margin-bottom: 10px;}
+h3.right_para{font-size: 26pt;font-family: Georgia, 'Times New Roman', Times, serif}
+img.image_png{margin-bottom: 16px;padding-right: 16px;}
+p.single_para_content{font-size: 13pt;margin-bottom: 16px;}
+a.single_block_link{font-size: 13pt;text-decoration: none;}
+a.single_block_link i{font-size: 12px;}
+
+div.design_control{padding-bottom: 10px;border-bottom: 2px solid #f1f1f1;}
+div.button_block button{border: none;padding: 4px 9px;background: #57bae8;color: white;margin-left: 16px;border-radius: 50%;outline: none;}
+h3.single_block_two_title{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+/* ======================================================
+small block information design end 
+====================================================== */
+
+
+/* ======================================================
+small two block information design start 
+====================================================== */
+
+div.main_block_before_footer{border-bottom: 5px solid #e2e2e2;padding: 35px 0px;}
+img.width{width: 100%;}
+h5.single_block_title_three{font-family: Georgia, 'Times New Roman', Times, serif;font-size: 16pt;color: #333333;margin-top: 14px;}
+p.single_para_block_three{font-size: 16pt;font-family: Georgia, 'Times New Roman', Times, serif;color: #999999;border-bottom: 2px solid #e2e2e2;padding-bottom: 15px;}
+
+
+/* ======================================================
+small two block information design end 
+====================================================== */
+
+/* ======================================================
+footer block design start 
+====================================================== */
+footer{background: #2c2f32;padding: 35px 0px;color: white;}
+div.single_block p{font-size: 11pt;color: #999999;margin-bottom: 10px;}
+h4.footer_title{color: #ffffff;font-size: 12pt;margin-bottom: 29px;}
+
+div.image_plus_info{display: flex;justify-content: space-around;flex-direction: row;margin-bottom: 15px;}
+img.left_para{height: fit-content;}
+p.right_para{font-size: 11pt;color: #999999;
+    margin-left: 15px;line-height: 16px;}
+p.right_para span{font-size: 9pt;margin-top: 2px;line-height: 25px;}
+
+ul.link_list_ul{list-style: none;}
+ul.link_list_ul li.link_list{margin-bottom: 1px;}
+a.footer_link{text-decoration: none;font-size: 11pt;}
+a.footer_link i{color: #999999;font-size: 11px;
+    margin-bottom: 10px;
+    margin-right: 7px;}
+
+form input{margin-bottom: 12px;}
+form button{margin-top: 12px;background: #57bae8 !important;}
+
+
+div.last_block{background: #1f2224;padding: 24px 0px;}
+div.last_block p{color: #999999;margin: 0px;}
+
+/* ======================================================
+footer block design end 
+====================================================== */
+
